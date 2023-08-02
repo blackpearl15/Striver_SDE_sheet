@@ -1,0 +1,12 @@
+int set_bit = n & ~(n-1);
+
+Take n = 19
+Binary : 010011
+
+Binary of 18 : 010010
+Negation : 101101
+
+set_bit = (010011) & (101101)
+        = 000001
+        
+        
